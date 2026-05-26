@@ -38,8 +38,7 @@ Primary users of this tool :
 Internal Team members can use it with their admin accounts. This version only supports internal team members once it is used across and get positive response across team we can give a version 2 of this tool to the clients with limited access at first.
 
 Successful Usage :
-Usage will be improved because we get instant answers about what we want and exactly the team need.The trust is more with this tool because the data is come from our own company documentations.The reliability is very high because if this.This version is specifically for internal users.
-
+Usage will be improved because we get instant answers about what we want and exactly the team need.The trust is more with this tool because the data is come from our own company documentations.The reliability is very high because if this.This version is specifically for internal users.We can also have a FAQ system that can help the new users to the platform, somebody may not have time to read the documentation so that type of users can check the FAQs for better idea about the tool.I can also integrate a documentation for the tool with version history and change of the tool functions.
 
 Techstack I will use for this system :
 
