@@ -20,6 +20,7 @@ print(df.isnull().sum())
 df['date']=df['time'].dt.date
 df["year"] = df["time"].dt.year
 df["month"] = df["time"].dt.month
+df["day"] = df["time"].dt.day
 print(df)
 
 df["temperature_f"] = (df["temperature_2m"] * 9/5) + 32
