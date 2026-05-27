@@ -34,6 +34,7 @@ df["month"] = df["time"].dt.month
 df["day"] = df["time"].dt.day
 print(df)
 
+logging.info("Converting temperature from Celsius to Fahrenheit")
 df["temperature_f"] = (df["temperature_2m"] * 9/5) + 32
 print(df)
 
