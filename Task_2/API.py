@@ -16,10 +16,15 @@ df["time"] = pd.to_datetime(df["time"])
 print(df)
 
 print(df.isnull().sum())
-df["date"] = df["time"].dt.date
+
+df['date']=df['time'].dt.date
 df["year"] = df["time"].dt.year
 df["month"] = df["time"].dt.month
-df["day"] = df["time"].dt.day
-df["hour"] = df["time"].dt.hour
-df["day_name"] = df["time"].dt.day_name()
+print(df)
+
+df["temperature_f"] = (df["temperature_2m"] * 9/5) + 32
+print(df)
+
+
+
 
