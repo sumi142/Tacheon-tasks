@@ -13,11 +13,9 @@ hourly = data['hourly']
 
 df=pd.DataFrame(data=hourly)
 df["time"] = pd.to_datetime(df["time"])
-#df["time"] = df["time"].dt.date
 print(df)
 
 print(df.isnull().sum())
-#print(df.isnull().values.any())
 df["date"] = df["time"].dt.date
 df["year"] = df["time"].dt.year
 df["month"] = df["time"].dt.month
