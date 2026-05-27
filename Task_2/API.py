@@ -33,11 +33,12 @@ df["year"] = df["time"].dt.year
 df["month"] = df["time"].dt.month
 df["day"] = df["time"].dt.day
 print(df)
+print(df.dtypes)
 
 logging.info("Converting temperature from Celsius to Fahrenheit")
 df["temperature_f"] = (df["temperature_2m"] * 9/5) + 32
 print(df)
+print(df.dtypes)
 
-
-
-
+Result = df.to_csv("/workspaces/Tacheon-tasks/Task_2/weather_data.csv", index=False)
+logging.info("Data saved to weather_data.csv")
